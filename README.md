@@ -32,6 +32,10 @@ In command line run:
   ```sh
 $ python pizzabot_main.py "5x5 (0, 0) (1, 3) (4,4) (4, 2) (4, 2) (0, 1) (3, 2) (2, 3) (4, 1)"
 ```
+or
+  ```sh
+$ python3 pizzabot_main.py "5x5 (0, 0) (1, 3) (4,4) (4, 2) (4, 2) (0, 1) (3, 2) (2, 3) (4, 1)"
+```
 Notice, than first argument should contain grid size **seperated by 'x'**, points coordinates should be in round brackets, in which x-coordinate and y-coordinate should be **integer** and **positive** and **seperated by comma** 
 
 If you will not provide parametres it would be read out form [txtfiles/test.txt](https://github.com/LizaKurilo/pizzabot/blob/master/txtfiles/test.txt) 
@@ -42,4 +46,8 @@ If your input will not be correct you will have a message with correct example a
 In command line run unittests:
   ```sh
 $ python tests.py"
+```
+or
+  ```sh
+$ python3 tests.py"
 ```
