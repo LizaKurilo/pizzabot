@@ -4,9 +4,15 @@ The task is to instruct Pizzabot on how to deliver pizzas to all the houses in a
 In more specific terms, given a grid (where each point on the grid is one house) and a list of points representing houses in need of pizza delivery, 
 return a list of instructions for getting Pizzabot to those locations and delivering. 
 
-An instruction is one of: N: Move north S: Move south E: Move east W: Move west D: Drop pizza
+An instruction is one of: \
+N: Move north \
+S: Move south \
+E: Move east \
+W: Move west \
+D: Drop pizza
 
-**Example:** for input 5x5 (1, 3) (4, 4) which means grid with size 5x5, points of deliver: (1,3), (4,4) one of the correct solution would be: ENNNDEEEND
+**Example:** \
+for input 5x5 (1, 3) (4, 4) which means grid with size 5x5, points of deliver: (1,3), (4,4) one of the correct solution would be: ENNNDEEEND
 
 <img src="https://github.com/LizaKurilo/pizzabot/blob/master/assets/example.png" width="300" height="300">
 
@@ -45,9 +51,9 @@ If your input will not be correct you will have a message with correct example a
 ## Tests
 In command line run unittests:
   ```sh
-$ python tests.py"
+$ python tests.py
 ```
 or
   ```sh
-$ python3 tests.py"
+$ python3 tests.py
 ```
